@@ -4,7 +4,7 @@ This document describes the QuoteToMe REST API v1.
 
 ## API Access
 
-The QuoteToMe API Server (`qtm_app_pyton` repository) serves the API for the QuoteToMe web and mobile applications. API endpoints generally take the following form:
+The QuoteToMe API Server serves the API for the QuoteToMe web and mobile applications. API endpoints generally take the following form:
 
 `/api/v1/SUBJECT/.../`
 
