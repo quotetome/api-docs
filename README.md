@@ -2,6 +2,8 @@
 
 This document describes the QuoteToMe REST API v1.
 
+Contact: support@quotetome.com
+
 ## API Access
 
 The QuoteToMe API Server serves the API for the QuoteToMe web and mobile applications. API endpoints generally take the following form:
@@ -26,7 +28,7 @@ The QuoteToMe API exchanges data in the [JSON](https://www.json.org/json-en.html
 
 Supply a single JSON object as the HTTP payload for requests that require input. 
 
-The shape and requirements for this JSON object vary depending on the requested operation. Refer to the endpoint's input serializer in the source code for complete details.
+The shape and requirements for this JSON object vary depending on the requested operation. Refer to the endpoint's API documentation for complete details.
 
 Endpoints that return a list of objects support pagination. Provide `limit` and `offset` query parameters to the request to have the results paginated. The `offset` parameter specifies how many objects to "skip" and the `limit` parameter specifies how many objects to return, starting from the `offset`.
 
