@@ -20,6 +20,15 @@ Send an `Authorization` HTTP header with each request. The header must take the 
 
 where `AUTH_TOKEN` is the user's authorization token, obtained after performing a successful login.
 
+### Other Header Values
+
+The only header values you should need to send are:
+
+* `Authorization: Token AUTH_TOKEN`
+* `Content-Type` , if you are sending data
+
+No other headers should be included or needed.
+
 ## Data Formats
 
 The QuoteToMe API exchanges data in the [JSON](https://www.json.org/json-en.html) format. Requests and responses must include a `Content-Type: application/json` HTTP header.
